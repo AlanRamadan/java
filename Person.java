@@ -10,6 +10,11 @@ public class Person {
     }
     //setter
     public void setName(String name){
+        
+        //Variable name is not being used
+        //this.name is being hardcoded and it can not be changed
+        //This setter method does is not doing it's purpose
+        
         this.name="Ali";
     }
     //getter
